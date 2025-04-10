@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsize.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Atisition -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <title>An Interactive Designer</title>
+</head>
+
+<body>
+    <header class="header fixed pc">
+        <div class="header__iner">
+            <div class="header__email">
+                <div class="header__container-email">
+                    <img src="./assets/icons/icon-hover.jpg" alt="heart" class="icon-heart">
+                </div>
+                <a href="#!" class="header__email-title">
+                    hi@arif.interactive
+                </a>
+            </div>
+            <div class="header__logo">
+                <img src="./assets/img/Logo.svg" alt="Logo" class="header__logo-img">
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#!">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#!">Journey</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#!">Service</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#!">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <header class="header fixed talet-mobile">
+        <div class="header__iner header-mobile">
+            <div class="header__logo">
+                <img src="./assets/img/Logo.svg" alt="Logo" class="header__logo-img">
+            </div>
+            <div class="header__container-action">
+                <div class="header__email">
+                    <div class="header__container-email">
+                        <img src="./assets/icons/icon-hover.jpg" alt="heart" class="icon-heart">
+                    </div>
+                </div>
+                <label for="action-nav">
+                    <div class="header__email">
+                        <div class="header__container-email">
+                            <img src="./assets/icons/Icon-mb.svg" alt="Tab" class="icon-heart">
+
+                        </div>
+                    </div>
+                </label>
+            </div>
+            <input type="checkbox" name="" id="action-nav" class="action-nav" hidden>
+            <label for="action-nav" class="overload"></label>
+            <div class="menu-draw">
+                <nav class="nav">
+                    <ul class="nav__list nav__list-mb">
+                        <li class="nav__item">
+                            <a href="#!">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!">Journey</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!">Service</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container container--mb">
+                <div class="hero__container">
+                    <article class="hero__left animate__animated animate__bounceInRight">
+                        <div class="hero__left-icon">
+                            <img src="./assets/icons/icon-hero.svg" alt="" class="icon-chudao">
+                            <img src="./assets/img/img-hreo.png" alt="Avatar" class="img--avatar">
+                        </div>
+                    </article>
+                    <section class="hero__right">
+                        <section class="hero__right-top">
+                            <h1 class="right__top-title animate__animated animate__bounceInLeft" >An Interactive Designer</h1>
+                            <p class="right__top-derc animate__animated animate__bounceInRight">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. In urna,
+                                non nisl tincidunt ut elementum turpis.</p>
+                        </section>
+                        <div class="hero__right-main animate__animated animate__bounceInLeft">
+                            <a href="#!" class="btn btn--hero">Book a Call</a>
+                            <a href="#!" class="hero__right-work">My Works</a>
+                        </div>
+                        <div class="hero__right-bottom animate__animated animate__bounceInRight">
+                            <p class="hero-bottom__flow">Follow me on:</p>
+                            <img src="./assets/icons/icon-be.svg" alt="icons">
+                            <img src="./assets/icons/icon-hero.svg" alt="" class="hero-bottom__icon2">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- cliens -->
+        <section class="cliens">
+            <div class="container">
+                <div class="cliens__container">
+                    <div class="cliens__container-top">
+                        <div class="cliens-top__info" data-aos="fade-down">
+                            <div class="cliens-top__befor"></div>
+                            <h2 class="cliens-top__title">Meet my recent clients</h2>
+                        </div>
+                        <div class="cliens-top__list" data-aos="fade-up-left">
+                            <img src="./assets/icons/icon-gg.svg" alt="Google" class="item--icon">
+                            <img src="./assets/icons/icon-warner-bros.svg" alt="warnerbros" class="item--icon">
+                            <img src="./assets/icons/icon-Mailchamp.svg" alt="Mailchamp" class="item--icon">
+                            <img src="./assets/icons/icon-Adobe.svg" alt="Adobe" class="item--icon">
+                            <img src="./assets/icons/icon-Upwork.svg" alt="Upwork" class="item--icon">
+                            <img src="./assets/icons/icon-Creative.svg" alt="Creative" class="item--icon">
+                            <img src="./assets/icons/icon-Woocommercde.svg" alt="Woocommercde" class="item--icon">
+                            <img src="./assets/icons/icon-Canva.svg" alt="Canva" class="item--icon">
+                        </div>
+                    </div>
+                    <section class="cliens__containar-main">
+                        <section class="cliens-main__info" data-aos="flip-left">
+                            <h2 class="cliens-main__title">Specialities</h2>
+                            <p class="cliens-main__derc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                urna, non nisl tincidunt ut elementum turpis.</p>
+                        </section>
+                        <div class="cliens-main__list" data-aos="zoom-in-right">
+                            <div class="cliens__list-item">
+                                <div class="cliens-item__info">
+                                    <img src="./assets/icons/icon-den.svg" alt="" class="cliens__info-img">
+                                    <h3 class="cliens__info-title">Product design</h3>
+                                    <p class="cliens__info-derc">Lorem ipsum dolor sit amet, solor adipiscing elit. Non
+                                        nisl solor ut elementum turpis.</p>
+                                </div>
+                            </div>
+                            <!-- item 2 -->
+                            <div class="cliens__list-item">
+                                <div class="cliens-item__info">
+                                    <img src="./assets/icons/icon-butchi.svg" alt="" class="cliens__info-img">
+                                    <h3 class="cliens__info-title">UI/UX Design</h3>
+                                    <p class="cliens__info-derc">Lorem ipsum dolor sit amet, solor adipiscing elit. Non
+                                        nisl solor ut elementum turpis.</p>
+                                </div>
+                            </div>
+                            <!-- item 3 -->
+                            <div class="cliens__list-item">
+                                <div class="cliens-item__info">
+                                    <img src="./assets/icons/icon-dt.svg" alt="" class="cliens__info-img">
+                                    <h3 class="cliens__info-title">Interactive design</h3>
+                                    <p class="cliens__info-derc">Lorem ipsum dolor sit amet, solor adipiscing elit. Non
+                                        nisl solor ut elementum turpis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cliens-mb">
+                            <div class="testti--list_action"></div>
+                            <div class="testti--list_action item--aciton"></div>
+                            <div class="testti--list_action"></div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- Works -->
+        <section class="works">
+            <div class="container">
+                <div class="works--container">
+                    <section class="works--container_top" data-aos="fade-right">
+                        <h2 class="works_top--title">Take a look at
+                            my recent projects</h2>
+                        <p class="works_top--derc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non
+                            nisl tincidunt ut elementum turpis.</p>
+                    </section>
+                    <article class="works--container_main" data-aos="zoom-in-right">
+                        <div class="works_main--list">
+                            <div class="works--list_item">
+                                <div class="works_item--info">
+                                    <section class="works--info_left">
+                                        <h3 class="info_left--title">Wally Website</h3>
+                                        <p class="info_left--derc">Lorem ipsum dolor amet, consectetur adipiscing st
+                                            elit.</p>
+                                        <a href="#!" class="info_left--action">Case Study</a>
+                                    </section>
+                                    <figute class="works--info_right">
+                                        <img src="./assets/img/img-works.svg" alt="" class="info_right--img"
+                                            style="position: relative; z-index: 1;">
+                                    </figute>
+                                    <!-- decor -->
+                                    <img src="./assets/icons/icon-works.svg" alt="" class="decor decor--1">
+                                    <img src="./assets/icons/icon-works-1.svg" alt="" class="decor decor--2">
+                                </div>
+                            </div>
+                            <!-- item 2 -->
+                            <div class="works--list_item">
+                                <div class="works_item--info">
+                                    <section class="works--info_left">
+                                        <h3 class="info_left--title">Banking App</h3>
+                                        <p class="info_left--derc">Lorem ipsum dolor amet, consectetur adipiscing st
+                                            elit.</p>
+                                        <a href="#!" class="info_left--action">Case Study</a>
+                                    </section>
+                                    <figute class="works--info_right">
+                                        <img src="./assets/img/img-works-1.svg" alt="" class="info_right--img"
+                                            style="position: relative; z-index: 1;">
+                                    </figute>
+                                    <!-- decor -->
+                                    <img src="./assets/icons/icon-works.svg" alt="" class="decor decor--1">
+                                    <img src="./assets/icons/icon-works-1.svg" alt="" class="decor decor--2">
+                                </div>
+                            </div>
+                            <!-- item 3 -->
+                            <div class="works--list_item">
+                                <div class="works_item--info">
+                                    <section class="works--info_left">
+                                        <h3 class="info_left--title">Web App</h3>
+                                        <p class="info_left--derc">Lorem ipsum dolor amet, consectetur adipiscing st
+                                            elit.</p>
+                                        <a href="#!" class="info_left--action">Case Study</a>
+                                    </section>
+                                    <figute class="works--info_right">
+                                        <img src="./assets/img/img-works-2.svg" alt="" class="info_right--img"
+                                            style="position: relative; z-index: 1;">
+                                    </figute>
+                                    <!-- decor -->
+                                    <img src="./assets/icons/icon-works.svg" alt="" class="decor decor--1">
+                                    <img src="./assets/icons/icon-works-1.svg" alt="" class="decor decor--2">
+                                </div>
+                            </div>
+                            <!-- item 4 -->
+                            <div class="works--list_item">
+                                <div class="works_item--info">
+                                    <section class="works--info_left">
+                                        <h3 class="info_left--title">Oculus Website</h3>
+                                        <p class="info_left--derc">Lorem ipsum dolor amet, consectetur adipiscing st
+                                            elit.</p>
+                                        <a href="#!" class="info_left--action">Case Study</a>
+                                    </section>
+                                    <figute class="works--info_right">
+                                        <img src="./assets/img/img-works-3.svg" alt="" class="info_right--img"
+                                            style="position: relative; z-index: 1;">
+                                    </figute>
+                                    <!-- decor -->
+                                    <img src="./assets/icons/icon-works.svg" alt="" class="decor decor--1">
+                                    <img src="./assets/icons/icon-works-1.svg" alt="" class="decor decor--2">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="works--container_bottom">
+                        <a href="#!" class="btn btn--works">All Projects</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfo -->
+        <section class="portfo">
+            <div class="container">
+                <div class="portfo--container">
+                    <section class="portfo--container_top" data-aos="fade-right">
+                        <div class="portfo_top--block">
+                            <p class="portfo_top--derc1">Hey,,,,It’s Arif </p>
+                            <img src="./assets/img/img-bantay.svg" alt="" style="margin-bottom: 10px;">
+                        </div>
+                        <h2 class="portfo_top--title">Interactive Designer</h2>
+                        <p class="portfo_top--derc2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+                            non nisl tincidunt ut elementum turpis.</p>
+                    </section>
+                    <article class="portfo--container_main">
+                        <div class="portfo_main--list">
+                            <div class="portfo--list_item">
+                                <h3 class="port_item--title">08+</h3>
+                                <p class="portfo_item--derc">Years Experience</p>
+                            </div>
+                            <div class="portfo--list_item">
+                                <h3 class="port_item--title">21+</h3>
+                                <p class="portfo_item--derc">Features & Awards</p>
+                            </div>
+                            <div class="portfo--list_item">
+                                <h3 class="port_item--title">97%</h3>
+                                <p class="portfo_item--derc">Clients Rating</p>
+                            </div>
+                        </div>
+                    </article>
+                    <figure class="portfo--container_bottom" data-aos="zoom-in">
+                        <img src="./assets/img/img-works-4.png" alt="Backgroud" class="portfo_bottom-bag">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!-- Testi -->
+        <section class="testi">
+            <div class="container">
+                <div class="testi--container">
+                    <section class="testi--container_listbaiviet">
+                        <div class="testi_listbaiviet--item">
+                            <section class="testi--container_top">
+                                <h2 class="testi_top--title">What people says</h2>
+                                <p class="testi_top--derc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    urna, non nisl tincidunt ut elementum turpis.</p>
+                            </section>
+                            <section class="testi--container_main">
+                                <p class="testi_main--derc">“Duis aute irure dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa.”</p>
+                                <div class="testi_main--info">
+                                    <img src="./assets/img/img-testi.svg" alt="">
+                                    <span class="testi--info_derc">Joe Elia</span>
+                                </div>
+                                <p class="testi_main--derc1">User Interface Design at PCL Lab</p>
+                            </section>
+                        </div>
+                        <div class="testi_listbaiviet--item">
+                            <section class="testi--container_top">
+                                <h2 class="testi_top--title">What people says</h2>
+                                <p class="testi_top--derc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    urna, non nisl tincidunt ut elementum turpis.</p>
+                            </section>
+                            <section class="testi--container_main">
+                                <p class="testi_main--derc">“Duis aute irure dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa.”</p>
+                                <div class="testi_main--info">
+                                    <img src="./assets/img/img-testi.svg" alt="">
+                                    <span class="testi--info_derc">Joe Elia</span>
+                                </div>
+                                <p class="testi_main--derc1">User Interface Design at PCL Lab</p>
+                            </section>
+                        </div>
+                        <div class="testi_listbaiviet--item">
+                            <section class="testi--container_top">
+                                <h2 class="testi_top--title">What people says</h2>
+                                <p class="testi_top--derc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    urna, non nisl tincidunt ut elementum turpis.</p>
+                            </section>
+                            <section class="testi--container_main">
+                                <p class="testi_main--derc">“Duis aute irure dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa.”</p>
+                                <div class="testi_main--info">
+                                    <img src="./assets/img/img-testi.svg" alt="">
+                                    <span class="testi--info_derc">Joe Elia</span>
+                                </div>
+                                <p class="testi_main--derc1">User Interface Design at PCL Lab</p>
+                            </section>
+                        </div>
+                        <div class="testi_listbaiviet--item">
+                            <section class="testi--container_top">
+                                <h2 class="testi_top--title">What people says</h2>
+                                <p class="testi_top--derc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    urna, non nisl tincidunt ut elementum turpis.</p>
+                            </section>
+                            <section class="testi--container_main">
+                                <p class="testi_main--derc">“Duis aute irure dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa.”</p>
+                                <div class="testi_main--info">
+                                    <img src="./assets/img/img-testi.svg" alt="">
+                                    <span class="testi--info_derc">Joe Elia</span>
+                                </div>
+                                <p class="testi_main--derc1">User Interface Design at PCL Lab</p>
+                            </section>
+                        </div>
+                        <div class="testi_listbaiviet--item">
+                            <section class="testi--container_top">
+                                <h2 class="testi_top--title">What people says</h2>
+                                <p class="testi_top--derc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    urna, non nisl tincidunt ut elementum turpis.</p>
+                            </section>
+                            <section class="testi--container_main">
+                                <p class="testi_main--derc">“Duis aute irure dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa.”</p>
+                                <div class="testi_main--info">
+                                    <img src="./assets/img/img-testi.svg" alt="">
+                                    <span class="testi--info_derc">Joe Elia</span>
+                                </div>
+                                <p class="testi_main--derc1">User Interface Design at PCL Lab</p>
+                            </section>
+                        </div>
+                    </section>
+                    <div class="testi--container_bottom">
+                        <div class="testi_bottom--list">
+                            <div class="testti--list_action"></div>
+                            <div class="testti--list_action"></div>
+                            <div class="testti--list_action item--aciton"></div>
+                            <div class="testti--list_action"></div>
+                            <div class="testti--list_action"></div>
+                        </div>
+                    </div>
+                    <!-- Decor -->
+                    <img src="./assets/icons/icon-testi.svg" alt="" class="testi--decor testi--decor--left">
+                    <img src="./assets/icons/icon-testi-1.svg" alt="" class="testi--decor testi--decor--right">
+                </div>
+            </div>
+        </section>
+        <section class="question">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="question__inner">
+                            <h3 class="question__heading people__heading" data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
+                                A few questions clients normally ask me
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 col-10">
+                        <div class="question__number">
+                            <div class="question__number-heading">
+                                <h4 class="question__title question__title--active">
+                                    What is your hourly rate?
+                                </h4>
+                                <p class="question__desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                    urna, non nisl tincidunt ut elementum turpis.
+                                </p>
+                            </div>
+                            <div class="question__icon">
+                                <a href="#!">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"
+                                        class="question__flus-minus-icon question__flus-minus-icon--active">
+                                        <path
+                                            d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-10">
+                        <div class="question__number">
+                            <div class="question__number-heading">
+                                <h4 class="question__title">
+                                    What type of projects do you take on?
+                                </h4>
+                            </div>
+                            <div class="question__icon">
+                                <a href="#!">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"
+                                        class="question__flus-minus-icon">
+                                        <path
+                                            d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-10">
+                        <div class="question__number">
+                            <div class="question__number-heading">
+                                <h4 class="question__title">
+                                    How do you charge for projects ?
+                                </h4>
+                            </div>
+                            <div class="question__icon">
+                                <a href="#!">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"
+                                        class="question__flus-minus-icon">
+                                        <path
+                                            d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-10">
+                        <div class="question__number">
+                            <div class="question__number-heading">
+                                <h4 class="question__title">What time-zone do you work in?</h4>
+                            </div>
+                            <div class="question__icon">
+                                <a href="#!">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"
+                                        class="question__flus-minus-icon">
+                                        <path
+                                            d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-10">
+                        <div class="question__number">
+                            <div class="question__number-heading">
+                                <h4 class="question__title">How often can we communicate?</h4>
+                            </div>
+                            <div class="question__icon">
+                                <a href="#!">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"
+                                        class="question__flus-minus-icon">
+                                        <path
+                                            d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="atmostphere">
+            <div class="container">
+                <div class="atmostphere--container">
+                    <div class="atmostphere--container_top">
+                        <div class="atmosphere__inner">
+                            <h3 class="talk__heading">My atmosphere</h3>
+                            <p class="talk__desc atmosphere__desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                urna, non nisl tincidunt ut elementum turpis.
+                            </p>
+                            <p class="atmosphere__id">@interaction_arif</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div class="atmostphere--container_image" data-aos="zoom-in-down">
+                    <div class="col img--mb">
+                        <div class="atmosphere__img">
+                            <img src="./assets/img/img-gel-1.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col img--mb">
+                        <div class="atmosphere__img">
+                            <img src="./assets/img/img-gel-2.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col img--mb">
+                        <div class="atmosphere__img">
+                            <img src="./assets/img/img-gel-3.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="testi--container_bottom">
+                    <div class="testi_bottom--list talet-mobile">
+                        <div class="testti--list_action"></div>
+                        <div class="testti--list_action"></div>
+                        <div class="testti--list_action item--aciton"></div>
+                        <div class="testti--list_action"></div>
+                        <div class="testti--list_action"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Talk -->
+        <section class="talk">
+            <div class="container">
+                <div class="tail--container">
+                    <div class="tail--container_top">
+                        <div class="talk__inner">
+                            <img src="./assets/icons/icon-taik.svg" alt="" class="talk__emoji" />
+                            <h3 class="talk__heading">Got a project? Let's talk</h3>
+                            <p class="talk__desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                                urna, non nisl tincidunt ut elementum turpis.
+                            </p>
+                            <div class="talk__container-button">
+                                <a href="#!" class="btn talk__button">Book a Call</a>
+                            </div>
+                        </div>
+                        <img src="./assets/icons/icon-talk-1.svg" alt="" class="talk__decor-01 talk__decor" />
+                        <img src="./assets/icons/icon-talk-2.svg" alt="" class="talk__decor-02 talk__decor" />
+                        <img src="./assets/icons/icon-talk-3.svg" alt="" class="talk__decor-03 talk__decor" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="col">
+                <div class="footer__inner">
+                    <div class="header__iner footer--nav">
+                        <div class="header__email">
+                            <div class="header__container-email">
+                                <img src="./assets/icons/icon-hover.jpg" alt="heart" class="icon-heart">
+                            </div>
+                            <a href="#!" class="header__email-title">
+                                hi@arif.interactive
+                            </a>
+                        </div>
+                        <div class="header__logo footer-logo">
+                            <img src="./assets/img/Logo.svg" alt="Logo" class="header__logo-img">
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav__list nav__list-ft">
+                                <li class="nav__item nav-ft">
+                                    <a href="#!">Projects</a>
+                                </li>
+                                <li class="nav__item nav-ft">
+                                    <a href="#!">Journey</a>
+                                </li>
+                                <li class="nav__item nav-ft">
+                                    <a href="#!">Service</a>
+                                </li>
+                                <li class="nav__item nav-ft">
+                                    <a href="#!">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <hr class="pc" />
+                    <div class="footer__id">
+                        <p class="footer__copyright">
+                            ©interactiveArif 2021. All rights reserved.
+                        </p>
+                        <hr />
+                        <div class="footer__policy">
+                            <p>
+                                <a href="#!" class="footer__policy-01">Privacy Policy</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="footer__policy-02">Terms of Conditions</a>
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="talet-mobile" />
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
