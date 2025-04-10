@@ -364,13 +364,16 @@
     }
     .nav-ft a{
         font-size: 1.8rem;
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .nav__list-ft{
         padding-left: 0;
     }
     .footer__id{
         flex-direction: column-reverse;
+    }
+    .ft-talet-mobile{
+        margin-left: 0;
     }
 }
